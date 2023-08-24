@@ -1,0 +1,8 @@
+.users {
+    display: flex;
+    background-color: whitesmoke;
+    color: #616161;
+}
+.usersContainer {
+    flex: 6;
+}

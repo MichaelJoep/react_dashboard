@@ -1,0 +1,21 @@
+.front_page {
+    display: flex;
+}
+.front_container {
+    flex: 6;
+    background: whitesmoke;
+    color: #616161;
+}
+.widgets {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.charts {
+    padding: 5px 20px;
+    display: flex;
+}
+.list_container {
+    padding: 5px 20px;
+    display: flex;
+}

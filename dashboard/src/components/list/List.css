@@ -1,0 +1,53 @@
+.list {
+    flex: 4;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    /* border-radius: 10px; */
+    background: whitesmoke;
+}
+.list_title {
+    margin-bottom: 15px;
+    color: #616161;
+    font-weight: 500;
+    font-size: 15px;
+}
+.tableCell {
+    background-color: whitesmoke;
+    color: #616161;
+}
+.tableRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.cellwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_img {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    box-shadow: 2px 3px 4px 0px rgba(0,0,0,0.2);
+}
+.status {
+    padding: 4px;
+    border-radius: 5px;
+}
+.Approved {
+    color: green;
+    background-color: rgba(0,128,0,0.15);
+}
+.Pending {
+    color: goldenrod;
+    background-color: rgba(173,188,1,0.29);
+}
+.Declined {
+    color: #d95087;
+    background-color: #fff0f1;
+}

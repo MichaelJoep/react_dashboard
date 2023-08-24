@@ -1,0 +1,77 @@
+.new_user {
+    display: flex;
+    background-color: whitesmoke;
+    color: #616161;
+    width: 100%;
+}
+.new_userContainer {
+    flex: 6;
+}
+h1 {
+    font-size: 20px;
+}
+.newtop_content,
+.new_bottom {
+    display: flex;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+.defaultImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+    transform: translateY(100px);
+}
+.newLeft {
+    flex: 1;
+    align-items: center;
+}
+.newRight {
+    flex: 2;
+}
+.newRight form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 0px 15px;
+}
+.newRight form .formInputLine {
+    width: 40%;
+}
+.newRight form .formInputLine label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+.profile_Icon {
+    cursor: pointer;
+}
+.newRight form .formInputLine input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #616161;
+    font-size: 18px;
+}
+.newRight form .formInputLine input::placeholder {
+    font-size: 12px;
+}
+.submit_btn {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #210876;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 10px;
+    cursor: pointer;
+}

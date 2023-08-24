@@ -1,0 +1,132 @@
+.app.dark {
+    background-color: #111;
+    color: rgb(156,156,156);
+}
+.app.dark .topbar {
+    background-color: #111;
+    color:#999;
+    border-color: #333;
+}
+.app.dark .search {
+    border-color: #616161;
+}
+.app.dark input {
+    color: #999;
+}
+.app.dark .sidebar {
+    background-color: #111;
+    color: #333;
+}
+.app.dark .top .logo {
+    color: #999;
+}
+.app.dark .profile-pic p {
+    color: #999;
+}
+.app.dark ul li:hover {
+    background-color: #333;
+}
+.app.dark .icon {
+    color: #999;
+}
+.app.dark .front_page {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .front_container {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .list {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .tableCell .tableRow {
+    color:#999;
+}
+.app.dark .tableCell {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .tableCell .cellwrapper {
+    color: #999;
+}
+.app.dark .tableCell span {
+    background-color: #111;
+    color: #999;
+    border: 1px dotted #999;
+}
+.app.dark .usersContainer {
+    background-color: #111;
+}
+.app.dark .datatable {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .data_grid {
+    color: #999 !important;
+    border: none;
+}
+.app.dark .viewButton {
+    border: 1px dotted #999;
+}
+.app.dark .new_user {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .submit_btn {
+    background-color: #333;
+}
+.app.dark .singleUser {
+    background-color: #111;
+}
+.app.dark .singleUserleft .userName {
+    color: #999;
+}
+.topTitleContainer {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .singleuser_body_container {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .products {
+    background-color: #111; 
+}
+.app.dark .new_link {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.app.dark .productList {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .dataGrid {
+    color: #999 !important;
+}
+.app.dark .singleProduct {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .productContainer_Title .singleProductTitle {
+    color: #999;
+}
+.app.dark .productContainer_Title .addProBtn {
+    border: 1px dotted #999;
+    border-radius: 5px;
+}
+.app.dark .productRight .productName {
+    color: #999;
+}
+.app.dark .productInfoBottomItem .productInfoKey {
+    color: #999;
+}
+.app.dark .newProduct {
+    background-color: #111;
+    color: #999;
+}
+.app.dark .newProductBtn {
+    background-color: #333;
+}
+

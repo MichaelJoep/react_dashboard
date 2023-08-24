@@ -1,0 +1,32 @@
+.products {
+    display: flex;
+    background-color: whitesmoke;
+    color: #616161;
+}
+.productsContainer {
+    flex: 6;
+}
+.productList {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+    margin: 20px;
+}
+.productTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #616161;
+}
+.new_link{
+    font-size: 14px;
+    border: 1px solid navy;
+    background-color: navy;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

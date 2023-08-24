@@ -1,0 +1,32 @@
+html,
+body,
+#root,
+.app{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  color: #616161;
+}
+/*Track*/
+::-wwebkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/*Track hover*/
+::-wwebkit-scrollbar-track:hover {
+  background: #555;
+}
+/*handle*/
+::-wwebkit-scrollbar-thumb{
+  background: #888;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,52 @@
+.productable {
+    height: 510px;
+    padding: 20px;
+    color: #616161;
+}
+.cellWithImg {
+    display: flex;
+    align-items: center;
+}
+.cellImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.2)
+}
+.span_addCart {
+    background-color: lightgreen;
+    padding: 5px 8px;
+    color:#616161;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dataGrid {
+    color:#616161;
+    border:none;
+}
+.actionBtn {
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+}
+.editButton {
+    border: 1px solid navy;
+    outline: none;
+    padding: 4px 10px;
+    background-color: transparent;
+    color: navy;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.deleteBtn {
+    border: 1px solid crimson;
+    outline: none;
+    padding: 4px 10px;
+    background-color: transparent;
+    color: lightcoral;
+    border-radius: 3px;
+    cursor: pointer;
+}

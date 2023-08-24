@@ -1,0 +1,78 @@
+.newProduct {
+    display: flex;
+    background-color: whitesmoke;
+    color: #616161;
+    width: 100%;
+}
+.newProductContainer {
+    flex: 6;
+}
+.newProductBottom {
+    display: flex;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+.newDefaultImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+    transform: translateY(100px);
+}
+.newProductTop {
+    padding: 5px;
+    margin: 20px;
+}
+.newProductLeft {
+    flex: 1;
+    text-align: center;
+}
+.newProductRight {
+    flex: 2;
+}
+.newFormContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 0px 15px;
+}
+.newFormInput {
+    width: 40%;
+}
+.newDriveIcon {
+    cursor: pointer;
+}
+.newFormInput label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+}
+.newFormInput input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 1px solid #616161;
+    padding: 5px;
+    background-color: transparent;
+}
+.newFormInput input::placeholder {
+    font-size: 14px;
+}
+.newProductBtn {
+    width: 150px;
+    background-color: #210876;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px;
+    cursor: pointer;
+}
